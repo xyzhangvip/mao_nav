@@ -843,7 +843,7 @@ onUnmounted(() => {
   margin: 0;
   flex: 1;
   overflow-y: auto;
-  padding-bottom: 160px; /* 增加底部内边距确保最后一项完全可见 */
+  padding-bottom: 10px; /* 增加底部内边距确保最后一项完全可见 */
 }
 
 .mobile-category-item {
