@@ -185,6 +185,11 @@
               <div class="footer-info">
                 <h3>{{ title || 'Zhang的导航' }}</h3>
                 <p>一个简洁、美观的导航网站，收录优质网站资源</p>
+                            <br />
+            <a href="https://beian.miit.gov.cn/#/Integrated/index" class="imprint" rel="external nofollow" target="_blank">
+               鄂ICP备2024075580-3号
+               </a>
+            <br />
               </div>
 
               <div class="footer-links">
