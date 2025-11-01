@@ -5,43 +5,7 @@ export const mockData = {
       "name": "我的常用",
       "icon": "💥",
       "order": 0,
-      "sites": [
-        {
-          "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
-          "id": "site-1752857783656",
-          "name": "OpenAI",
-          "url": "https://chatgpt.com",
-          "description": "OpenAI,好用👌",
-          "icon": "/sitelogo/chatgpt.com.ico"
-        },
-        {
-          "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
-        },
-        {
-          "id": "site-1761985275673",
-          "name": "百度一下",
-          "url": "https://www.baidu.com/",
-          "description": "",
-          "icon": "https://www.faviconextractor.com/favicon/www.baidu.com"
-        }
-      ]
+      "sites": []
     },
     {
       "id": "ai-tools",
@@ -477,11 +441,44 @@ export const mockData = {
           "url": "https://www.feishu.cn",
           "description": "企业协作平台",
           "icon": "/sitelogo/www.feishu.cn.ico"
+        },
+        {
+          "id": "linux-do",
+          "name": "Linux.do",
+          "url": "https://linux.do",
+          "description": "Linux技术社区，Peace and Love",
+          "icon": "/sitelogo/linux.do.ico"
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "url": "https://github.com",
+          "description": "代码托管平台",
+          "icon": "/sitelogo/github.com.ico"
+        },
+        {
+          "id": "site-1761985275673",
+          "name": "百度一下",
+          "url": "https://www.baidu.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.baidu.com"
+        },
+        {
+          "id": "site-1752857783656",
+          "name": "OpenAI",
+          "url": "https://chatgpt.com",
+          "description": "OpenAI,好用👌",
+          "icon": "/sitelogo/chatgpt.com.ico"
+        },
+        {
+          "id": "curlconverter",
+          "name": "curl converter",
+          "url": "https://curlconverter.com/",
+          "description": "curl命令转换工具",
+          "icon": "/sitelogo/curlconverter.com.ico"
         }
       ]
     }
   ],
-  "title": "Zhang的导航",
-  "_fileSha": "2db65e0e650ac83cd7b65090fe89faa0d3dd9bcf",
-  "search": "baidu"
+  "title": "Zhang的导航"
 }
