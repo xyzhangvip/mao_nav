@@ -68,7 +68,25 @@
         </a>
       </div>
     </aside>
-
+    <!-- 右侧主内容区 -->
+    <main class="main-content">
+                  <!-- 顶部搜索栏 -->
+      <header class="search-header">
+        <div class="search-container">
+          <div class="search-engine-selector">
+            <img :src="searchEngines[selectedEngine].icon" :alt="selectedEngine" class="engine-logo" />
+            <select v-model="selectedEngine" class="engine-select">
+              <option value="baidu">Baidu</option>
+            </select>
+          </div>
+          <input
+            type="text"
+            v-model="searchQuery"
+            :placeholder="searchEngines[selectedEngine].placeholder"
+            class="search-input"
+            @keyup.enter="handleSearch"
+          />
+        </div>
 
         <!-- 主题切换按钮 -->
         <button class="theme-toggle-btn" @click="themeStore.toggleTheme" :title="themeStore.isDarkMode ? '切换到日间模式' : '切换到夜间模式'">
