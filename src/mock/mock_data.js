@@ -33,6 +33,13 @@ export const mockData = {
           "url": "https://curlconverter.com/",
           "description": "curl命令转换工具",
           "icon": "/sitelogo/curlconverter.com.ico"
+        },
+        {
+          "id": "site-1761985275673",
+          "name": "百度一下",
+          "url": "https://www.baidu.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.baidu.com"
         }
       ]
     },
